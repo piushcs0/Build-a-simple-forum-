@@ -10,6 +10,9 @@
   function start(){
 	  
 	  page=1;
+	  
+	  let head="Post List";	
+	document.getElementById('heading').innerHTML = head;;
 	const url = 'https://jsonplaceholder.typicode.com/posts';
  
   fetch(url)
